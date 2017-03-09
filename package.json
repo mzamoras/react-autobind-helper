@@ -1,0 +1,40 @@
+{
+    "name": "react-autobind-helper",
+    "version": "1.0.0",
+    "description": "Helper to autobind metohods when creating a React Class",
+    "main": "lib/index.js",
+    "scripts": {
+        "lib": "rimraf lib && babel --out-dir lib src",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mzamoras/react-autobind-helper.git"
+    },
+    "keywords": [
+        "react",
+        "autobind",
+        "helper",
+        "automatic",
+        "auto",
+        "bind",
+        "class",
+        "component",
+        "es6",
+        "method",
+        "function"
+    ],
+    "author": "Miguel Zamora Serrano",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mzamoras/react-autobind-helper/issues"
+    },
+    "homepage": "https://github.com/mzamoras/react-autobind-helper#readme",
+    "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-core": "^6.23.1",
+        "babel-polyfill": "^6.23.0",
+        "babel-preset-latest": "^6.22.0",
+        "rimraf": "^2.6.1"
+    }
+}
