@@ -1,11 +1,12 @@
 {
     "name": "react-autobind-helper",
     "version": "1.0.0",
-    "description": "Helper to autobind metohods when creating a React Class",
+    "description": "Helper to autobind methods when creating a React Class",
     "main": "lib/index.js",
     "scripts": {
         "lib": "rimraf lib && babel --out-dir lib src",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublish": "npm run lib"
     },
     "repository": {
         "type": "git",
@@ -18,9 +19,6 @@
         "automatic",
         "auto",
         "bind",
-        "class",
-        "component",
-        "es6",
         "method",
         "function"
     ],
